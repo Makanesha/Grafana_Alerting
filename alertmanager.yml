@@ -1,8 +1,8 @@
 global:
   smtp_smarthost: 'smtp.gmail.com:587'
-  smtp_from: 'makaneshav.22msc@kongu.edu'
-  smtp_auth_username: 'makaneshav.22msc@kongu.edu'
-  smtp_auth_password: 'acvsuwrutirhynod'
+  smtp_from: 'your-email@gmail.com'
+  smtp_auth_username: 'your-email@gmail.com'
+  smtp_auth_password: 'your-app-password'
   smtp_require_tls: true
 
 
@@ -15,4 +15,4 @@ route:
 receivers:
   - name: 'email-notifications'
     email_configs:
-      - to: 'makaneshav.22msc@kongu.edu'
+      - to: 'your-email@gmail.com'
