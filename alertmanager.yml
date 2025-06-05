@@ -1,0 +1,18 @@
+global:
+  smtp_smarthost: 'smtp.gmail.com:587'
+  smtp_from: 'makaneshav.22msc@kongu.edu'
+  smtp_auth_username: 'makaneshav.22msc@kongu.edu'
+  smtp_auth_password: 'acvsuwrutirhynod'
+  smtp_require_tls: true
+
+
+route:
+  receiver: 'email-notifications'
+  group_wait: 10s         # Wait 10s to group alerts before sending
+  group_interval: 30s     # Minimum wait between notifications about new alerts in the same group
+# Minimum wait before resending a notification for the same alert
+
+receivers:
+  - name: 'email-notifications'
+    email_configs:
+      - to: 'makaneshav.22msc@kongu.edu'
