@@ -1,6 +1,6 @@
 # 🖥️ Grafana Alerting & Reporting for System Monitoring
 
-> Final-Year DevOps Project – M.Sc. Software Systems  
+> Third-Year DevOps Project – M.Sc. Software Systems  
 > Kongu Engineering College, April 2025  
 > **By:** Makanesha V (22ISR023)
 
